@@ -4,6 +4,7 @@
   "description": "",
   "main": "src/server.js",
   "scripts": {
+    "start": "node src/server.js",
     "test": "mocha"
   },
   "author": "Chapman",
@@ -11,5 +12,8 @@
   "dependencies": {
     "body-parser": "^1.15.2",
     "express": "^4.14.0"
+  },
+  "devDependencies": {
+    "chai": "^3.5.0"
   }
 }
