@@ -6,7 +6,8 @@ module.exports = (express) => {
     res.json({
       healthy: true,
       status: "deployed",
-      testing: true
+      testing: true,
+      forceFail: true
     });
   });
 
