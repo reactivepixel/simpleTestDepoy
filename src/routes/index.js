@@ -5,11 +5,9 @@ module.exports = (express) => {
 
     res.json({
       healthy: true,
+      status: "deployed"
     });
   });
-
-  // Routes
-  // router.use('/api/', require('./api/user')(express));
 
   return router;
 };
