@@ -7,7 +7,7 @@ module.exports = (express) => {
       healthy: true,
       status: "deployed",
       testing: true,
-      forceFail: true
+      forceFail: false
     });
   });
 
